@@ -1,0 +1,59 @@
+// Colors
+// Color calculator - http://razorjam.github.io/sasscolourfunctioncalculator/
+// Color names - http://name-of-color.com/
+
+$gray: #999;
+$black: #2d2d2d;
+$white: #fff;
+$blue-light: #0071bc;
+$blue: #004171;
+$green: #a6bd68;
+$orange: #ce713d;
+$orange-light: #f9b17b;
+
+$font-lora: 'Lora', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
+$font-merriweather: 'Merriweather', serif;
+$font-open-sans: 'Open Sans', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+$base-font-sans-serif: $font-open-sans;
+$base-font-serif: $font-lora;
+
+// Body
+$base-text-color: $black !default;
+$base-background-color: $white !default;
+$font-size-base: 16px !default;
+$line-height-base: 1.563;
+$base-font-family: $base-font-sans-serif !default;
+
+$vertical-rhythm: ($line-height-base * 1em);
+
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $orange;
+
+// Buttons
+$btn-color: $white !default;
+$btn-background: $orange;
+$btn-padding: 0.4em 0.7em !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: #c8c8c8;
+$form-element-focus-border-color: $orange;
+$placeholder-color: #b3b3b3;
+
+// Headers
+$h1-font-size: 54px !default;
+$h2-font-size: 44px !default;
+$h3-font-size: 34px !default;
+$h4-font-size: 24px !default;
+$h5-font-size: 20px !default;
+$h6-font-size: 17px !default;
+
+$headings-font-family: $font-merriweather;
+$headings-color: $orange;
+
+
+$animation-speed: 0.3s;
